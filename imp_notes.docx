@@ -1,0 +1,53 @@
+﻿Setup
+
+- Node -> 9.11.2
+- Express -> 4.6.13
+
+Packages Used
+
+- i18n-> 0.8.3
+
+For any work in multilingual projects i.e. project with more than one language.
+
+- express-breadcrumbs -> 0.0.2
+
+For setting breadcrumbs in node.js(for front)
+
+- express-validator -> 4.3.0
+
+For validating the inputs like number, email, etc (like we use Validators in angular)
+
+- body-parser -> 1.18.3
+
+A typical npm package used for parsing the body in json or other format like this: (req.json() or res.json()). In simple words it is used for converting the body in human readabale format.
+
+- ejs -> 2.6.2
+
+Embedded Javascript templates
+
+EJS(Embedded JavaScript templated) is a simple templating language that lets you generate HTML markup language with plain JavaScript.
+
+It is somewhat like JSX(JavaScript XML) where it lets you write JavaScript in HTML type format. Something like this:
+
+<ul>
+	<% users.forEach(function(user){ %>
+	<%- include(‘user/show’, {user: user});	%>
+	<% }); %>
+</ul>
+
+In this example it is used to print a list in HTML using JavaScript syntax.
+
+- express-fileupload
+
+Used to upload files via express.js
+
+- express-flash
+
+This pakcgae is used so that flash messages can be used in the system.
+
+- dotenv
+
+This package is used to load environment variables from a .env file into process.env.
+
+Q .(We could have simply used the .env file, so why we are using dotenv? Any advantages of that?)
+
